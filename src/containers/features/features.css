@@ -16,19 +16,20 @@
     margin-right: 5rem;
 }
 
-.gpt3__features-heading h1{
-    font-family: var(--font-family);
+.gpt3__features-heading h1 {
     font-size: 34px;
-    font-weight: 800;
     line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
 }
 
-.gpt3__features-heading p{
-    font-family: Manrope;
+.gpt3__features-heading p {
+    color: var(--color-subtext);
     font-size: 16px;
-    font-weight: 500;
     line-height: 30px;
-    color: #ff9a71;
+    font-weight: 500;
+    font-family: var(--font-family);
+
     margin-top: 2rem;
 }
 
@@ -49,6 +50,7 @@
         margin: 0 0 2rem 0;
     }
 }
+
 
 @media screen and (max-width: 550px) {
     .gpt3__features-heading h1 {
